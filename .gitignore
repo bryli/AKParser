@@ -1,0 +1,7 @@
+#Pycharm files
+.idea/
+
+#OS-specific files
+.metadata/
+.DS_Store
+bash.exe.stackdump

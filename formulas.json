@@ -1,0 +1,733 @@
+{
+    "30011": {
+        "itemId": "30011",
+        "name": "Orirock",
+        "rarity": 0,
+        "costs": []
+    },
+    "30012": {
+        "itemId": "30012",
+        "name": "Orirock Cube",
+        "rarity": 1,
+        "costs": [
+            {
+                "id": "30011",
+                "count": 3,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30013": {
+        "itemId": "30013",
+        "name": "Orirock Cluster",
+        "rarity": 2,
+        "costs": [
+            {
+                "id": "30012",
+                "count": 5,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30014": {
+        "itemId": "30014",
+        "name": "Orriock Concentration",
+        "rarity": 3,
+        "costs": [
+            {
+                "id": "30013",
+                "count": 4,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30061": {
+        "itemId": "30061",
+        "name": "Damaged Device",
+        "rarity": 0,
+        "costs": []
+    },
+    "30062": {
+        "itemId": "30062",
+        "name": "Device",
+        "rarity": 1,
+        "costs": [
+            {
+                "id": "30061",
+                "count": 3,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30063": {
+        "itemId": "30063",
+        "name": "Integrated Device",
+        "rarity": 2,
+        "costs": [
+            {
+                "id": "30062",
+                "count": 4,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30064": {
+        "itemId": "30064",
+        "name": "Optimized Device",
+        "rarity": 3,
+        "costs": [
+            {
+                "id": "30063",
+                "count": 1,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30013",
+                "count": 2,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30093",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30031": {
+        "itemId": "30031",
+        "name": "Ester",
+        "rarity": 0,
+        "costs": []
+    },
+    "30032": {
+        "itemId": "30032",
+        "name": "Polyester",
+        "rarity": 1,
+        "costs": [
+            {
+                "id": "30031",
+                "count": 3,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30033": {
+        "itemId": "30033",
+        "name": "Polyester Pack",
+        "rarity": 2,
+        "costs": [
+            {
+                "id": "30032",
+                "count": 4,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30034": {
+        "itemId": "30034",
+        "name": "Polyester Lump",
+        "rarity": 3,
+        "costs": [
+            {
+                "id": "30033",
+                "count": 2,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30053",
+                "count": 1,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30073",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30021": {
+        "itemId": "30021",
+        "name": "Sugar Substitute",
+        "rarity": 0,
+        "costs": []
+    },
+    "30022": {
+        "itemId": "30022",
+        "name": "Sugar",
+        "rarity": 1,
+        "costs": [
+            {
+                "id": "30021",
+                "count": 3,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30023": {
+        "itemId": "30023",
+        "name": "Sugar Pack",
+        "rarity": 2,
+        "costs": [
+            {
+                "id": "30022",
+                "count": 4,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30024": {
+        "itemId": "30024",
+        "name": "Sugar Lump",
+        "rarity": 3,
+        "costs": [
+            {
+                "id": "30023",
+                "count": 2,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30043",
+                "count": 1,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30083",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30041": {
+        "itemId": "30041",
+        "name": "Oriron Shard",
+        "rarity": 0,
+        "costs": []
+    },
+    "30042": {
+        "itemId": "30042",
+        "name": "Oriron",
+        "rarity": 1,
+        "costs": [
+            {
+                "id": "30041",
+                "count": 3,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30043": {
+        "itemId": "30043",
+        "name": "Oriron Cluster",
+        "rarity": 2,
+        "costs": [
+            {
+                "id": "30042",
+                "count": 4,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30044": {
+        "itemId": "30044",
+        "name": "Oriron Block",
+        "rarity": 3,
+        "costs": [
+            {
+                "id": "30043",
+                "count": 2,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30063",
+                "count": 1,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30033",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30051": {
+        "itemId": "30051",
+        "name": "Diketon",
+        "rarity": 0,
+        "costs": []
+    },
+    "30052": {
+        "itemId": "30052",
+        "name": "Polyketon",
+        "rarity": 1,
+        "costs": [
+            {
+                "id": "30051",
+                "count": 3,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30053": {
+        "itemId": "30053",
+        "name": "Aketon",
+        "rarity": 2,
+        "costs": [
+            {
+                "id": "30052",
+                "count": 4,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30054": {
+        "itemId": "30054",
+        "name": "Keton Colloid",
+        "rarity": 3,
+        "costs": [
+            {
+                "id": "30053",
+                "count": 2,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30023",
+                "count": 1,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30083",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30073": {
+        "itemId": "30073",
+        "name": "Loxic Kohl",
+        "rarity": 2,
+        "costs": []
+    },
+    "30074": {
+        "itemId": "30074",
+        "name": "White Horse Kohl",
+        "rarity": 3,
+        "costs": [
+            {
+                "id": "30073",
+                "count": 1,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30023",
+                "count": 1,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30103",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30083": {
+        "itemId": "30083",
+        "name": "Manganese Ore",
+        "rarity": 2,
+        "costs": []
+    },
+    "30084": {
+        "itemId": "30084",
+        "name": "Manganese Trihydrate",
+        "rarity": 3,
+        "costs": [
+            {
+                "id": "30083",
+                "count": 2,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30033",
+                "count": 1,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30073",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30093": {
+        "itemId": "30093",
+        "name": "Grindstone",
+        "rarity": 2,
+        "costs": []
+    },
+    "30094": {
+        "itemId": "30094",
+        "name": "Grindstone Pentahydrate",
+        "rarity": 3,
+        "costs": [
+            {
+                "id": "30093",
+                "count": 1,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30043",
+                "count": 1,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30063",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30103": {
+        "itemId": "30103",
+        "name": "RMA70-12",
+        "rarity": 2,
+        "costs": []
+    },
+    "30104": {
+        "itemId": "30104",
+        "name": "RMA70-24",
+        "rarity": 3,
+        "costs": [
+            {
+                "id": "30103",
+                "count": 1,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30013",
+                "count": 2,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30053",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30115": {
+        "itemId": "30115",
+        "name": "Polymerization Preparation",
+        "rarity": 4,
+        "costs": [
+            {
+                "id": "30014",
+                "count": 1,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30044",
+                "count": 1,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30054",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30125": {
+        "itemId": "30125",
+        "name": "Bipolar Nanoflake",
+        "rarity": 4,
+        "costs": [
+            {
+                "id": "30064",
+                "count": 1,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30074",
+                "count": 2,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "30135": {
+        "itemId": "30135",
+        "name": "D32 Steel",
+        "rarity": 4,
+        "costs": [
+            {
+                "id": "30084",
+                "count": 1,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30094",
+                "count": 1,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "30104",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "3301": {
+        "itemId": "3301",
+        "name": "Skill Summary - 1",
+        "rarity": 1,
+        "costs": []
+    },
+    "3302": {
+        "itemId": "3302",
+        "name": "Skill Summary - 2",
+        "rarity": 2,
+        "costs": []
+    },
+    "3303": {
+        "itemId": "3303",
+        "name": "Skill Summary - 3",
+        "rarity": 3,
+        "costs": []
+    },
+    "32001": {
+        "itemId": "32001",
+        "name": "Chip Catalyst",
+        "rarity": 3,
+        "costs": []
+    },
+    "3211": {
+        "itemId": "3211",
+        "name": "Vanguard Chip",
+        "rarity": 2,
+        "costs": []
+    },
+    "3212": {
+        "itemId": "3212",
+        "name": "Vanguard Chip Pack",
+        "rarity": 3,
+        "costs": []
+    },
+    "3213": {
+        "itemId": "3213",
+        "name": "Vanguard Dualchip",
+        "rarity": 4,
+        "costs": [
+            {
+                "id": "3212",
+                "count": 2,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "32001",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "3221": {
+        "itemId": "3221",
+        "name": "Guard Chip",
+        "rarity": 2,
+        "costs": []
+    },
+    "3222": {
+        "itemId": "3222",
+        "name": "Guard Chip Pack",
+        "rarity": 3,
+        "costs": []
+    },
+    "3223": {
+        "itemId": "3223",
+        "name": "Guard Dualchip",
+        "rarity": 4,
+        "costs": [
+            {
+                "id": "3222",
+                "count": 2,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "32001",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "3231": {
+        "itemId": "3231",
+        "name": "Defender Chip",
+        "rarity": 2,
+        "costs": []
+    },
+    "3232": {
+        "itemId": "3232",
+        "name": "Defender Chip Pack",
+        "rarity": 3,
+        "costs": []
+    },
+    "3233": {
+        "itemId": "3233",
+        "name": "Defender Dualchip",
+        "rarity": 4,
+        "costs": [
+            {
+                "id": "3232",
+                "count": 2,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "32001",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "3241": {
+        "itemId": "3241",
+        "name": "Sniper Chip",
+        "rarity": 2,
+        "costs": []
+    },
+    "3242": {
+        "itemId": "3242",
+        "name": "Sniper Chip Pack",
+        "rarity": 3,
+        "costs": []
+    },
+    "3243": {
+        "itemId": "3243",
+        "name": "Sniper Dualchip",
+        "rarity": 4,
+        "costs": [
+            {
+                "id": "3242",
+                "count": 2,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "32001",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "3251": {
+        "itemId": "3251",
+        "name": "Caster Chip",
+        "rarity": 2,
+        "costs": []
+    },
+    "3252": {
+        "itemId": "3252",
+        "name": "Caster Chip Pack",
+        "rarity": 3,
+        "costs": []
+    },
+    "3253": {
+        "itemId": "3253",
+        "name": "Caster Dualchip",
+        "rarity": 4,
+        "costs": [
+            {
+                "id": "3252",
+                "count": 2,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "32001",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "3261": {
+        "itemId": "3261",
+        "name": "Medic Chip",
+        "rarity": 2,
+        "costs": []
+    },
+    "3262": {
+        "itemId": "3262",
+        "name": "Medic Chip Pack",
+        "rarity": 3,
+        "costs": []
+    },
+    "3263": {
+        "itemId": "3263",
+        "name": "Medic Dualchip",
+        "rarity": 4,
+        "costs": [
+            {
+                "id": "3262",
+                "count": 2,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "32001",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "3271": {
+        "itemId": "3271",
+        "name": "Supporter Chip",
+        "rarity": 2,
+        "costs": []
+    },
+    "3272": {
+        "itemId": "3272",
+        "name": "Supporter Chip Pack",
+        "rarity": 3,
+        "costs": []
+    },
+    "3273": {
+        "itemId": "3273",
+        "name": "Supporter Dualchip",
+        "rarity": 4,
+        "costs": [
+            {
+                "id": "3272",
+                "count": 2,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "32001",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    },
+    "3281": {
+        "itemId": "3281",
+        "name": "Specialist Chip",
+        "rarity": 2,
+        "costs": []
+    },
+    "3282": {
+        "itemId": "3282",
+        "name": "Specialist Chip Pack",
+        "rarity": 3,
+        "costs": []
+    },
+    "3283": {
+        "itemId": "3283",
+        "name": "Specialist Dualchip",
+        "rarity": 4,
+        "costs": [
+            {
+                "id": "3282",
+                "count": 2,
+                "type": "MATERIAL"
+            },
+            {
+                "id": "32001",
+                "count": 1,
+                "type": "MATERIAL"
+            }
+        ]
+    }
+}
